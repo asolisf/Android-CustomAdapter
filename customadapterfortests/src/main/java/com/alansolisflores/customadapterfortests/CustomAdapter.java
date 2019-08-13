@@ -46,7 +46,7 @@ public class CustomAdapter extends BaseAdapter {
 
         if(convertView == null){
             LayoutInflater layoutInflater = LayoutInflater.from(this.context);
-            layoutInflater.inflate(this.layout,null);
+            convertView = layoutInflater.inflate(this.layout,null);
 
             holder = new ViewHolder();
 
